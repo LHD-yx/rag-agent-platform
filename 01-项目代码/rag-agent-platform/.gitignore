@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+.cache/
+
+# 切片段与索引是生成物：别人 clone 之后跑 python main.py chunk / index 重建
+# （索引还需要 embedding 接口额度，所以不进仓库）
+data/chunks/*.jsonl
+data/index/
+
+# 评测报告要进仓库：它们是最直接的证据
+data/results/*
+!data/results/*.md

@@ -1,0 +1,161 @@
+{"query": "X3-55 清洁屏幕时需要断电吗？", "gold_chunk_ids": ["bdde0e5ace-1-0"], "gold_doc_ids": ["bdde0e5ace"], "category": "操作指引"}
+{"query": "P1-Standard 画质向导有几种模式可以选择？", "gold_chunk_ids": ["30dc6bb43b-0-0"], "gold_doc_ids": ["30dc6bb43b"], "category": "操作指引"}
+{"query": "这款产品支持多少种网络接口？", "gold_chunk_ids": ["37b5edd3ad-0-1"], "gold_doc_ids": ["37b5edd3ad"], "category": "事实查找"}
+{"query": "X3-75 是否支持HDMI eARC接口？", "gold_chunk_ids": ["4223f0e3c1-1-0"], "gold_doc_ids": ["4223f0e3c1"], "category": "事实查找"}
+{"query": "P1-Standard 我可以使用「星澜服务」App 提交工单吗？", "gold_chunk_ids": ["bb27912f46-4-0"], "gold_doc_ids": ["bb27912f46"], "category": "事实查找"}
+{"query": "如何使用电视观看传统有线频道？", "gold_chunk_ids": ["42ab8bc210-9-0"], "gold_doc_ids": ["42ab8bc210"], "category": "其他"}
+{"query": "A5-43 这款智能电视的分辨率是多少？", "gold_chunk_ids": ["6be7aae106-1-0"], "gold_doc_ids": ["6be7aae106"], "category": "事实查找"}
+{"query": "A5-32 这个产品需要遵守哪些安全标准？", "gold_chunk_ids": ["18c2cee364-2-0"], "gold_doc_ids": ["18c2cee364"], "category": "事实查找"}
+{"query": "画质向导如何选择模式？", "gold_chunk_ids": ["d2e029cad0-0-1"], "gold_doc_ids": ["d2e029cad0"], "category": "操作指引"}
+{"query": "星澜智能科技有限公司的退换货规则适用于哪些产品？", "gold_chunk_ids": ["22c9f2aa79-0-0"], "gold_doc_ids": ["22c9f2aa79"], "category": "政策类"}
+{"query": "A5-32 如何检查电源线是否插紧？", "gold_chunk_ids": ["b355e6f63a-0-0"], "gold_doc_ids": ["b355e6f63a"], "category": "操作指引"}
+{"query": "报修需要联系哪个电话号码？", "gold_chunk_ids": ["6fc5b211f9-7-0"], "gold_doc_ids": ["6fc5b211f9"], "category": "故障排查"}
+{"query": "A5-65型号是由哪家公司发布的？", "gold_chunk_ids": ["58099945bf-0-0"], "gold_doc_ids": ["58099945bf"], "category": "事实查找"}
+{"query": "S1-Pro 主机的保修期是多久？", "gold_chunk_ids": ["6f0e590744-0-0"], "gold_doc_ids": ["6f0e590744"], "category": "事实查找"}
+{"query": "星澜电视支持无线网络连接吗？", "gold_chunk_ids": ["7d714a0009-0-0"], "gold_doc_ids": ["7d714a0009"], "category": "故障排查"}
+{"query": "星澜电视为什么会自动重启？", "gold_chunk_ids": ["fbb5406ed9-0-0"], "gold_doc_ids": ["fbb5406ed9"], "category": "故障排查"}
+{"query": "这款设备有多少个网口？", "gold_chunk_ids": ["fc502633ab-0-1"], "gold_doc_ids": ["fc502633ab"], "category": "事实查找"}
+{"query": "遇到蓝牙设备配对失败时，应该怎么办？", "gold_chunk_ids": ["297b760002-6-0"], "gold_doc_ids": ["297b760002"], "category": "故障排查"}
+{"query": "隔离不良品的原因是什么？", "gold_chunk_ids": ["b7b6e89ca9-2-0"], "gold_doc_ids": ["b7b6e89ca9"], "category": "其他"}
+{"query": "画面花屏可能是由哪些原因引起的？", "gold_chunk_ids": ["3c2b13eb86-6-0"], "gold_doc_ids": ["3c2b13eb86"], "category": "故障排查"}
+{"query": "X3-85 开机后怎样联网？", "gold_chunk_ids": ["2075e57cd4-0-0"], "gold_doc_ids": ["2075e57cd4"], "category": "操作指引"}
+{"query": "C7-86 画质向导如何操作？", "gold_chunk_ids": ["420e205c0a-5-0"], "gold_doc_ids": ["420e205c0a"], "category": "操作指引"}
+{"query": "X3-65 如何切换输入源？", "gold_chunk_ids": ["7871a4f883-4-0"], "gold_doc_ids": ["7871a4f883"], "category": "操作指引"}
+{"query": "C7-65 处理废弃产品时应该怎么做？", "gold_chunk_ids": ["47fe8f3eef-2-0"], "gold_doc_ids": ["47fe8f3eef"], "category": "事实查找"}
+{"query": "A5-50 这款电视的分辨率是多少？", "gold_chunk_ids": ["aa85f626fa-1-0"], "gold_doc_ids": ["aa85f626fa"], "category": "事实查找"}
+{"query": "网络连接不稳定时如何排查？", "gold_chunk_ids": ["0292842f7a-0-0"], "gold_doc_ids": ["0292842f7a"], "category": "常见问题"}
+{"query": "投屏后为什么会出现黑屏？", "gold_chunk_ids": ["277146da42-0-0"], "gold_doc_ids": ["277146da42"], "category": "其他"}
+{"query": "SB-300的机身序列号在哪里查看？", "gold_chunk_ids": ["2944f2af01-1-0"], "gold_doc_ids": ["2944f2af01"], "category": "事实查找"}
+{"query": "SB-300 首次开机时需要做哪些准备工作？", "gold_chunk_ids": ["a084ebd150-1-0"], "gold_doc_ids": ["a084ebd150"], "category": "常见问题"}
+{"query": "C7-75 清洁屏幕时可以使用哪些物质？", "gold_chunk_ids": ["81271a6e4d-6-0"], "gold_doc_ids": ["81271a6e4d"], "category": "操作指引"}
+{"query": "这次固件更新是哪个公司发布的？", "gold_chunk_ids": ["b0bed86371-0-0"], "gold_doc_ids": ["b0bed86371"], "category": "其他"}
+{"query": "如何根据观看距离选择电视机的尺寸？", "gold_chunk_ids": ["fa0a5b7f41-0-0"], "gold_doc_ids": ["fa0a5b7f41"], "category": "其他"}
+{"query": "C7-86 散热孔多久清理一次？", "gold_chunk_ids": ["2acf2e024c-2-0"], "gold_doc_ids": ["2acf2e024c"], "category": "操作指引"}
+{"query": "SB-200 需要多少颗螺丝来固定底座支架？", "gold_chunk_ids": ["94b20c7669-2-0"], "gold_doc_ids": ["94b20c7669"], "category": "操作指引"}
+{"query": "C7-86 这款设备的年耗电量是多少？", "gold_chunk_ids": ["bf33d77471-1-0"], "gold_doc_ids": ["bf33d77471"], "category": "事实查找"}
+{"query": "S1-Pro型号是由哪个公司发布的？", "gold_chunk_ids": ["5f2a32d9cb-0-0"], "gold_doc_ids": ["5f2a32d9cb"], "category": "操作指引"}
+{"query": "C7-55 更换遥控器电池的最佳时间是什么？", "gold_chunk_ids": ["f3511049d4-5-0"], "gold_doc_ids": ["f3511049d4"], "category": "操作指引"}
+{"query": "P1-Air 更换遥控器电池的最佳时间是什么？", "gold_chunk_ids": ["12c8cfffcb-5-0"], "gold_doc_ids": ["12c8cfffcb"], "category": "操作指引"}
+{"query": "C7-55 可以什么时候拨打客服热线？", "gold_chunk_ids": ["eb83bba42d-7-0"], "gold_doc_ids": ["eb83bba42d"], "category": "操作指引"}
+{"query": "X3-75 首次开机需要等待多长时间？", "gold_chunk_ids": ["f6f12967d9-0-0"], "gold_doc_ids": ["f6f12967d9"], "category": "操作指引"}
+{"query": "这次固件更新是哪个公司的作品？", "gold_chunk_ids": ["12d5fcf487-0-0"], "gold_doc_ids": ["12d5fcf487"], "category": "其他"}
+{"query": "S1 梅雨季节应该如何操作设备以防止潮气侵入？", "gold_chunk_ids": ["6c7cd8b194-0-0"], "gold_doc_ids": ["6c7cd8b194"], "category": "操作指引"}
+{"query": "X3-65 清洁屏幕时需要断电吗？", "gold_chunk_ids": ["ce4a3bec21-1-0"], "gold_doc_ids": ["ce4a3bec21"], "category": "操作指引"}
+{"query": "X3-85 使用什么类型的电源线和适配器？", "gold_chunk_ids": ["adf222fc06-3-0"], "gold_doc_ids": ["adf222fc06"], "category": "事实查找"}
+{"query": "静电手环需要每天检查吗？", "gold_chunk_ids": ["368b9d91fe-1-0"], "gold_doc_ids": ["368b9d91fe"], "category": "其他"}
+{"query": "C7 商用系列是否支持连续24小时运行？", "gold_chunk_ids": ["7ab4a67d28-1-0"], "gold_doc_ids": ["7ab4a67d28"], "category": "其他"}
+{"query": "C7-86 首次开机后应该先做什么？", "gold_chunk_ids": ["4056e1a2f8-1-0"], "gold_doc_ids": ["4056e1a2f8"], "category": "常见问题"}
+{"query": "P1-Pro 梅雨季节应该如何做才能有效驱潮？", "gold_chunk_ids": ["f2c403a390-0-0"], "gold_doc_ids": ["f2c403a390"], "category": "操作指引"}
+{"query": "这款A5-55主机的保修期是如何规定的？", "gold_chunk_ids": ["e71db5db5b-0-0"], "gold_doc_ids": ["e71db5db5b"], "category": "事实查找"}
+{"query": "S1 如何查询工单进度？", "gold_chunk_ids": ["93fbeb8222-8-0"], "gold_doc_ids": ["93fbeb8222"], "category": "操作指引"}
+{"query": "SB-300主机有几个配件？", "gold_chunk_ids": ["1f4501463f-1-0"], "gold_doc_ids": ["1f4501463f"], "category": "操作指引"}
+{"query": "SB-300 无线遥控器支持哪些连接方式？", "gold_chunk_ids": ["7fc1f23453-0-0"], "gold_doc_ids": ["7fc1f23453"], "category": "事实查找"}
+{"query": "P1-Standard 这个包装里有没有鼠标？", "gold_chunk_ids": ["0c4d7a7a70-1-0"], "gold_doc_ids": ["0c4d7a7a70"], "category": "事实查找"}
+{"query": "X3-65型号的安装指南在哪里可以找到？", "gold_chunk_ids": ["b40246256b-0-0"], "gold_doc_ids": ["b40246256b"], "category": "操作指引"}
+{"query": "X3-85 投影光源的更换建议是多少小时？", "gold_chunk_ids": ["b13a5d869c-5-0"], "gold_doc_ids": ["b13a5d869c"], "category": "操作指引"}
+{"query": "A5-43型号是由哪个公司发布的？", "gold_chunk_ids": ["4cb7bf7cfe-0-0"], "gold_doc_ids": ["4cb7bf7cfe"], "category": "事实查找"}
+{"query": "A5-43 清洁屏幕时应该注意什么？", "gold_chunk_ids": ["a3c08fa9af-0-0"], "gold_doc_ids": ["a3c08fa9af"], "category": "操作指引"}
+{"query": "X3-65 这个包装里有底座组件吗？", "gold_chunk_ids": ["e3e14fcfbd-1-0"], "gold_doc_ids": ["e3e14fcfbd"], "category": "事实查找"}
+{"query": "偏远地区的响应时间是多少？", "gold_chunk_ids": ["f05d5511d1-2-0"], "gold_doc_ids": ["f05d5511d1"], "category": "政策类"}
+{"query": "C7-55 我可以下载「星澜服务」App 吗？", "gold_chunk_ids": ["a353aa1fe8-4-0"], "gold_doc_ids": ["a353aa1fe8"], "category": "事实查找"}
+{"query": "C7-75的屏幕分辨率是多少？", "gold_chunk_ids": ["f7bafdb5c0-0-0"], "gold_doc_ids": ["f7bafdb5c0"], "category": "事实查找"}
+{"query": "X3-75 清洁屏幕时需要断电吗？", "gold_chunk_ids": ["c29f826e3b-1-0"], "gold_doc_ids": ["c29f826e3b"], "category": "操作指引"}
+{"query": "A5-65 安装时需要几人协作？", "gold_chunk_ids": ["27d32b5866-3-0"], "gold_doc_ids": ["27d32b5866"], "category": "操作指引"}
+{"query": "P1-Pro型号是由哪家公司发布的？", "gold_chunk_ids": ["1f372d084f-0-0"], "gold_doc_ids": ["1f372d084f"], "category": "事实查找"}
+{"query": "C7-75型号适用哪些配件？", "gold_chunk_ids": ["fdbaa9ea9c-0-0"], "gold_doc_ids": ["fdbaa9ea9c"], "category": "事实查找"}
+{"query": "SB-200 我可以使用WiFi连接吗？", "gold_chunk_ids": ["86e36dd2b4-3-0"], "gold_doc_ids": ["86e36dd2b4"], "category": "操作指引"}
+{"query": "百度千帆平台提供了哪些精选SOTA模型？", "gold_chunk_ids": ["88ebe6a7eb-0-1"], "gold_doc_ids": ["88ebe6a7eb"], "category": "其他"}
+{"query": "SB-300 的能效等级是多少？", "gold_chunk_ids": ["358cbe0f83-0-0"], "gold_doc_ids": ["358cbe0f83"], "category": "事实查找"}
+{"query": "X3-55型号适用哪些产品？", "gold_chunk_ids": ["1461a59e61-0-0"], "gold_doc_ids": ["1461a59e61"], "category": "事实查找"}
+{"query": "S1-Pro 如果使用第三方配件无法识别设备，应该怎么办？", "gold_chunk_ids": ["b72c37f771-3-0"], "gold_doc_ids": ["b72c37f771"], "category": "事实查找"}
+{"query": "S1 这款设备的年耗电量是多少？", "gold_chunk_ids": ["87bd67c991-1-0"], "gold_doc_ids": ["87bd67c991"], "category": "事实查找"}
+{"query": "C7-65 这款智能盒子是否支持老款设备的系统升级？", "gold_chunk_ids": ["b13431b84c-0-0"], "gold_doc_ids": ["b13431b84c"], "category": "事实查找"}
+{"query": "P1-Air 适用哪些配件？", "gold_chunk_ids": ["0c19bd6e24-0-0"], "gold_doc_ids": ["0c19bd6e24"], "category": "事实查找"}
+{"query": "A5-50 我可以使用「星澜服务」App 提交工单吗？", "gold_chunk_ids": ["3dd4ca8ae8-5-0"], "gold_doc_ids": ["3dd4ca8ae8"], "category": "事实查找"}
+{"query": "SB-200 首次开机后应该先做什么？", "gold_chunk_ids": ["c1079b03f2-1-0"], "gold_doc_ids": ["c1079b03f2"], "category": "常见问题"}
+{"query": "C7-65 第三步中可以怎么联网？", "gold_chunk_ids": ["bb487a798d-3-0"], "gold_doc_ids": ["bb487a798d"], "category": "操作指引"}
+{"query": "C7-86 电源线能适应的电压范围是多少？", "gold_chunk_ids": ["04d1330ed0-1-0"], "gold_doc_ids": ["04d1330ed0"], "category": "操作指引"}
+{"query": "这款SB-200的能效等级是多少？", "gold_chunk_ids": ["28dd85bccd-0-0"], "gold_doc_ids": ["28dd85bccd"], "category": "事实查找"}
+{"query": "A5-65 这款产品的年耗电量是多少？", "gold_chunk_ids": ["97675b5305-0-0"], "gold_doc_ids": ["97675b5305"], "category": "事实查找"}
+{"query": "投屏需要满足什么条件？", "gold_chunk_ids": ["c901ef9b85-0-1"], "gold_doc_ids": ["c901ef9b85"], "category": "操作指引"}
+{"query": "SB-500 散热孔需要多久清理一次？", "gold_chunk_ids": ["cd70a49581-2-0"], "gold_doc_ids": ["cd70a49581"], "category": "操作指引"}
+{"query": "A5-43 电源线没插紧会怎么样？", "gold_chunk_ids": ["d99492e9fc-4-0"], "gold_doc_ids": ["d99492e9fc"], "category": "常见问题"}
+{"query": "X3-65 首次开机需要多长时间？", "gold_chunk_ids": ["882e83d2a1-4-0"], "gold_doc_ids": ["882e83d2a1"], "category": "操作指引"}
+{"query": "P1-Air 回音壁连接时需要使用哪个接口？", "gold_chunk_ids": ["ca4d7cb33b-4-0"], "gold_doc_ids": ["ca4d7cb33b"], "category": "操作指引"}
+{"query": "A5-55 这款电视支持的分辨率是多少？", "gold_chunk_ids": ["6303efe742-1-0"], "gold_doc_ids": ["6303efe742"], "category": "事实查找"}
+{"query": "保外维修需要支付上门费吗？", "gold_chunk_ids": ["1d5335d8f3-1-0"], "gold_doc_ids": ["1d5335d8f3"], "category": "政策类"}
+{"query": "S1-Pro 建议多久通电运行一次？", "gold_chunk_ids": ["1e180da403-4-0"], "gold_doc_ids": ["1e180da403"], "category": "操作指引"}
+{"query": "新版本固件提升了首页加载速度，具体提升了多少百分比？", "gold_chunk_ids": ["b11b2987e3-1-0"], "gold_doc_ids": ["b11b2987e3"], "category": "其他"}
+{"query": "SB-500型号是由哪家公司发布的？", "gold_chunk_ids": ["4195f62d9f-0-0"], "gold_doc_ids": ["4195f62d9f"], "category": "事实查找"}
+{"query": "SB-300 第三步如何实现联网？", "gold_chunk_ids": ["7b11bcae8c-3-0"], "gold_doc_ids": ["7b11bcae8c"], "category": "操作指引"}
+{"query": "X3-85 这款设备的年耗电量是多少？", "gold_chunk_ids": ["2f1fd73d47-1-0"], "gold_doc_ids": ["2f1fd73d47"], "category": "事实查找"}
+{"query": "P1-Pro 连接蓝牙耳机后，电视扬声器会怎样？", "gold_chunk_ids": ["4d748beab3-4-0"], "gold_doc_ids": ["4d748beab3"], "category": "常见问题"}
+{"query": "C7-55 首次开机后应该先做什么？", "gold_chunk_ids": ["9f9ea9f83a-1-0"], "gold_doc_ids": ["9f9ea9f83a"], "category": "常见问题"}
+{"query": "如何检查应用占用的空间大小？", "gold_chunk_ids": ["fc66283026-0-0"], "gold_doc_ids": ["fc66283026"], "category": "常见问题"}
+{"query": "A5-50 画质向导如何操作？", "gold_chunk_ids": ["fdcbbd90e8-4-0"], "gold_doc_ids": ["fdcbbd90e8"], "category": "操作指引"}
+{"query": "P1-Pro 如何查询我的工单进度？", "gold_chunk_ids": ["02326d1cec-5-0"], "gold_doc_ids": ["02326d1cec"], "category": "事实查找"}
+{"query": "P1-Pro 拆机会影响保修吗？", "gold_chunk_ids": ["92ded69311-6-0"], "gold_doc_ids": ["92ded69311"], "category": "操作指引"}
+{"query": "C7-75 清洁屏幕时需要断电吗？", "gold_chunk_ids": ["06d935f881-1-0"], "gold_doc_ids": ["06d935f881"], "category": "操作指引"}
+{"query": "X3-55 这个设备支持哪些视频输入接口？", "gold_chunk_ids": ["550246f2db-2-0"], "gold_doc_ids": ["550246f2db"], "category": "事实查找"}
+{"query": "C7-65 机身序列号在哪里查看？", "gold_chunk_ids": ["bebf782151-1-0"], "gold_doc_ids": ["bebf782151"], "category": "事实查找"}
+{"query": "整机保修期是多久", "gold_chunk_ids": ["cb7e775a07-1-0"], "gold_doc_ids": ["cb7e775a07"], "category": "事实查找"}
+{"query": "屏幕和主板保修多长时间", "gold_chunk_ids": ["cb7e775a07-1-0"], "gold_doc_ids": ["cb7e775a07"], "category": "事实查找"}
+{"query": "X3-55 的待机功耗是多少", "gold_chunk_ids": ["8c021e82ed-1-0"], "gold_doc_ids": ["8c021e82ed"], "category": "事实查找"}
+{"query": "上门安装服务覆盖哪些地区", "gold_chunk_ids": ["0378613f37-1-0"], "gold_doc_ids": ["0378613f37"], "category": "事实查找"}
+{"query": "延保服务可以延长多长时间", "gold_chunk_ids": ["3543834ca7-1-0"], "gold_doc_ids": ["3543834ca7"], "category": "事实查找"}
+{"query": "保外维修的上门费是多少", "gold_chunk_ids": ["1d5335d8f3-1-0"], "gold_doc_ids": ["1d5335d8f3"], "category": "事实查找"}
+{"query": "保修期内换机后保修期怎么算", "gold_chunk_ids": ["e3148e52d7-0-0"], "gold_doc_ids": ["e3148e52d7"], "category": "事实查找"}
+{"query": "全国服务网点覆盖多少个城市", "gold_chunk_ids": ["386bf22b11-1-0"], "gold_doc_ids": ["386bf22b11"], "category": "事实查找"}
+{"query": "客服热线的服务时间是几点到几点", "gold_chunk_ids": ["584cc75f21-5-0"], "gold_doc_ids": ["584cc75f21"], "category": "事实查找"}
+{"query": "如何恢复出厂设置", "gold_chunk_ids": ["32ee8ac0f4-5-0"], "gold_doc_ids": ["32ee8ac0f4"], "category": "操作指引"}
+{"query": "怎么连接无线网络", "gold_chunk_ids": ["8f67e8a0b2-4-0"], "gold_doc_ids": ["8f67e8a0b2"], "category": "操作指引"}
+{"query": "固件升级失败怎么用 U 盘离线升级", "gold_chunk_ids": ["42ab8bc210-11-0"], "gold_doc_ids": ["42ab8bc210"], "category": "操作指引"}
+{"query": "屏幕应该怎么清洁", "gold_chunk_ids": ["8f67e8a0b2-5-0"], "gold_doc_ids": ["8f67e8a0b2"], "category": "操作指引"}
+{"query": "出风口和散热孔要怎么维护", "gold_chunk_ids": ["8f67e8a0b2-5-0"], "gold_doc_ids": ["8f67e8a0b2"], "category": "操作指引"}
+{"query": "新机首次开机要做哪些设置", "gold_chunk_ids": ["32ee8ac0f4-1-0"], "gold_doc_ids": ["32ee8ac0f4"], "category": "操作指引"}
+{"query": "电视指示灯不亮怎么办", "gold_chunk_ids": ["02bfb59fce-0-0"], "gold_doc_ids": ["02bfb59fce"], "category": "故障排查"}
+{"query": "遥控器怎么检查是不是坏了", "gold_chunk_ids": ["6fc5b211f9-5-0"], "gold_doc_ids": ["6fc5b211f9"], "category": "故障排查"}
+{"query": "HDMI 显示无信号怎么排查", "gold_chunk_ids": ["4eb82a6288-2-0"], "gold_doc_ids": ["4eb82a6288"], "category": "故障排查"}
+{"query": "画面出现彩色噪点是什么原因", "gold_chunk_ids": ["3c2b13eb86-1-0"], "gold_doc_ids": ["3c2b13eb86"], "category": "故障排查"}
+{"query": "WiFi 连不上该怎么处理", "gold_chunk_ids": ["42ab8bc210-10-0"], "gold_doc_ids": ["42ab8bc210"], "category": "故障排查"}
+{"query": "系统频繁卡顿、自动重启怎么办", "gold_chunk_ids": ["fbb5406ed9-2-0"], "gold_doc_ids": ["fbb5406ed9"], "category": "故障排查"}
+{"query": "蓝牙设备连不上怎么配对", "gold_chunk_ids": ["32ee8ac0f4-2-0"], "gold_doc_ids": ["32ee8ac0f4"], "category": "故障排查"}
+{"query": "投屏失败提示找不到设备怎么办", "gold_chunk_ids": ["9228002079-5-0"], "gold_doc_ids": ["9228002079"], "category": "故障排查"}
+{"query": "X3 系列和 A5 系列有什么区别", "gold_chunk_ids": ["550246f2db-1-0"], "gold_doc_ids": ["550246f2db"], "category": "对比选择"}
+{"query": "SB-200 和 SB-300 回音壁差在哪", "gold_chunk_ids": ["d38fed1dfd-0-0"], "gold_doc_ids": ["d38fed1dfd"], "category": "对比选择"}
+{"query": "商用 C7 系列和家用系列有什么不同", "gold_chunk_ids": ["7ab4a67d28-1-0"], "gold_doc_ids": ["7ab4a67d28"], "category": "对比选择"}
+{"query": "智能盒子和电视内置系统该怎么选", "gold_chunk_ids": ["d45f0ba8b0-1-0"], "gold_doc_ids": ["d45f0ba8b0"], "category": "对比选择"}
+{"query": "七天无理由退货需要满足什么条件", "gold_chunk_ids": ["22c9f2aa79-1-0"], "gold_doc_ids": ["22c9f2aa79"], "category": "政策类"}
+{"query": "延保服务覆盖人为损坏吗", "gold_chunk_ids": ["3543834ca7-2-0"], "gold_doc_ids": ["3543834ca7"], "category": "政策类"}
+{"query": "升级保修后上门费还要收吗", "gold_chunk_ids": ["3543834ca7-2-0"], "gold_doc_ids": ["3543834ca7"], "category": "政策类"}
+{"query": "投诉处理分几个级别", "gold_chunk_ids": ["8c021e82ed-1-0"], "gold_doc_ids": ["8c021e82ed"], "category": "政策类"}
+{"query": "整机停产之后备件还能供应多久", "gold_chunk_ids": ["ae15950508-1-0"], "gold_doc_ids": ["ae15950508"], "category": "政策类"}
+{"query": "X3-65 的电源板如果坏了保修多久", "gold_chunk_ids": ["e3e14fcfbd-0-0", "cb7e775a07-1-0"], "gold_doc_ids": ["e3e14fcfbd", "cb7e775a07"], "category": "多跳组合", "multi_hop": true}
+{"query": "屏幕出现竖线在保修期内怎么处理", "gold_chunk_ids": ["d2e029cad0-0-0", "cb7e775a07-1-0"], "gold_doc_ids": ["d2e029cad0", "cb7e775a07"], "category": "多跳组合", "multi_hop": true}
+{"query": "回音壁连上了但没声音怎么排查", "gold_chunk_ids": ["d2e029cad0-0-0", "32ee8ac0f4-4-0"], "gold_doc_ids": ["d2e029cad0", "32ee8ac0f4"], "category": "多跳组合", "multi_hop": true}
+{"query": "恢复出厂设置会清除账号吗", "gold_chunk_ids": ["32ee8ac0f4-5-0"], "gold_doc_ids": ["32ee8ac0f4"], "category": "多跳组合", "multi_hop": true}
+{"query": "延保期内维修还要收检测费吗", "gold_chunk_ids": ["3543834ca7-2-0"], "gold_doc_ids": ["3543834ca7"], "category": "多跳组合", "multi_hop": true}
+{"query": "在高温环境下使用会不会影响保修", "gold_chunk_ids": ["6be7aae106-1-0", "cb7e775a07-3-0"], "gold_doc_ids": ["6be7aae106", "cb7e775a07"], "category": "多跳组合", "multi_hop": true}
+{"query": "投屏失败该怎么排查，和路由器有关吗", "gold_chunk_ids": ["42ab8bc210-3-0", "b355e6f63a-0-0"], "gold_doc_ids": ["42ab8bc210", "b355e6f63a"], "category": "多跳组合", "multi_hop": true}
+{"query": "恢复出厂设置前需要先做什么准备", "gold_chunk_ids": ["32ee8ac0f4-5-0", "66d01ec7de-5-0"], "gold_doc_ids": ["32ee8ac0f4", "66d01ec7de"], "category": "多跳组合", "multi_hop": true}
+{"query": "X3-75 安装时需要注意什么安全问题", "gold_chunk_ids": ["2b44a25c23-0-0", "d2e029cad0-0-0"], "gold_doc_ids": ["2b44a25c23", "d2e029cad0"], "category": "多跳组合", "multi_hop": true}
+{"query": "电视开不了机咋整", "gold_chunk_ids": ["42ab8bc210-15-0"], "gold_doc_ids": ["42ab8bc210"], "category": "口语化"}
+{"query": "遥控器没反应咋办", "gold_chunk_ids": ["6fc5b211f9-0-0"], "gold_doc_ids": ["6fc5b211f9"], "category": "口语化"}
+{"query": "盒子连不上网", "gold_chunk_ids": ["7d714a0009-0-0"], "gold_doc_ids": ["7d714a0009"], "category": "口语化"}
+{"query": "屏幕咋擦才不伤", "gold_chunk_ids": ["42ab8bc210-13-0"], "gold_doc_ids": ["42ab8bc210"], "category": "口语化"}
+{"query": "保修多久啊", "gold_chunk_ids": ["cb7e775a07-1-0"], "gold_doc_ids": ["cb7e775a07"], "category": "口语化"}
+{"query": "上门修要花多少钱", "gold_chunk_ids": ["0378613f37-1-0"], "gold_doc_ids": ["0378613f37"], "category": "口语化"}
+{"query": "延保是啥意思", "gold_chunk_ids": ["3543834ca7-0-0"], "gold_doc_ids": ["3543834ca7"], "category": "口语化"}
+{"query": "画面有点糊咋回事", "gold_chunk_ids": ["42ab8bc210-0-0"], "gold_doc_ids": ["42ab8bc210"], "category": "口语化"}
+{"query": "竞品电视的价格是多少", "category": "拒答", "unanswerable": true}
+{"query": "星澜公司的股票代码是多少", "category": "拒答", "unanswerable": true}
+{"query": "星澜的 CEO 是谁", "category": "拒答", "unanswerable": true}
+{"query": "星澜去年营收多少", "category": "拒答", "unanswerable": true}
+{"query": "明天上海的天气怎么样", "category": "拒答", "unanswerable": true}
+{"query": "帮我写一封辞职信", "category": "拒答", "unanswerable": true}
+{"query": "帮我推荐一部好看的电影", "category": "拒答", "unanswerable": true}
+{"query": "1234 乘以 5678 等于多少", "category": "拒答", "unanswerable": true}
+{"query": "iPhone 最新款多少钱", "category": "拒答", "unanswerable": true}
+{"query": "今天有什么科技新闻", "category": "拒答", "unanswerable": true}
+{"query": "星澜电视在海外市场占有率多少", "category": "拒答", "unanswerable": true}
+{"query": "隔壁品牌的客服电话是多少", "category": "拒答", "unanswerable": true}

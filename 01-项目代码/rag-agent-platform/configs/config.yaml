@@ -1,0 +1,88 @@
+paths:
+  raw_dir: data/raw
+  chunks_file: data/chunks/chunks.jsonl
+  index_dir: data/index
+  eval_file: data/eval/eval_set.jsonl
+  result_dir: data/results
+  alias_file: configs/aliases.yaml
+
+chunking:
+  max_chars: 512      # 单片最大字符数
+  overlap: 128        # 相邻片段重叠
+  # 小于该长度的碎片丢弃。
+  # 注意：不要设得太大——"现象描述""可能原因"这类短章节经常只有一两行，
+  # 却正好是用户提问的答案所在（例如"彩色噪点/间歇黑屏"），设成 30 会把它们整段丢掉。
+  min_chars: 12
+
+embedding:
+  provider: api                     # api | local
+  model: BAAI/bge-m3
+  base_url: https://api.siliconflow.cn/v1
+  api_key_env: SILICONFLOW_API_KEY
+  batch_size: 32
+
+llm:
+  model: Qwen/Qwen2.5-7B-Instruct     # 可换成 deepseek-chat / qwen-plus 等
+  base_url: https://api.siliconflow.cn/v1
+  api_key_env: SILICONFLOW_API_KEY
+  temperature: 0.2
+  max_tokens: 1024
+
+retrieval:
+  dense_top_k: 20     # 向量召回条数
+  bm25_top_k: 8       # 关键词召回条数（实测条数越多噪声越大，8 条时融合效果最好）
+  rrf_k: 60           # RRF 平滑常数
+  # RRF 加权：等权融合会稀释强信号。
+  # 实测（scripts/ablation_deltas.py，单变量对照）：等权 hit@1 0.436 → 3:1 hit@1 0.456
+  # 权重只看排名不看分数，所以不需要归一化，但向量权重不能给太小，否则关键词噪声会挤掉正确结果
+  dense_weight: 3.0
+  bm25_weight: 1.0
+  final_top_k: 5      # 最终返回条数
+
+rewrite:
+  enable_alias: true  # 词典归一化（型号、别名）
+  enable_hyde: false  # HyDE 假设文档检索：提升召回，但每次多一次 LLM 调用（评测时打开做对比）
+
+rerank:
+  method: rule        # rule | api | none
+  top_k: 5
+  rule:
+    # 最终得分 = retrieval_weight × 归一化检索分 + rule_weight × 规则分
+    # 注意：不要让规则分数完全覆盖检索分，否则会把原本排对的结果挤下去
+    retrieval_weight: 0.85
+    rule_weight: 0.15
+    keyword_weight: 0.6   # 关键词重合度
+    source_weight: 0.25   # 来源权威性
+    length_weight: 0.15   # 长度合理性
+    source_weights:       # 官方手册 > 售后记录
+      md: 1.0
+      docx: 1.0
+      pdf: 0.9
+      txt: 0.8
+  api:
+    url: https://api.siliconflow.cn/v1/rerank
+    model: BAAI/bge-reranker-v2-m3
+    api_key_env: SILICONFLOW_API_KEY
+
+generation:
+  # 置信度指标：dense_score（推荐，向量余弦相似度）| rerank_score | score（RRF 融合分）
+  # 注意：不要用 RRF 分当阈值——它只反映排名，分数恒为 1/(k+rank)，与相关性无关
+  confidence_metric: dense_score
+  # 低于该值视为低置信 -> 拒答。
+  # 0.55 是用 161 条评测集扫出来的推荐档：拒答检出率 83.3%、误拒率 2.0%
+  # （0.50 档检出 66.7%、误拒 0.7%；0.60 档检出 91.7% 但误拒升到 6.7%，
+  #  所以按「误拒 ≤5% 前提下检出率最高」选了 0.55）
+  # 校准表见 data/results/threshold_calibration.md，可用 scripts/calibrate_threshold.py 复现。
+  # 口径：置信度取生产链路 top-1 片段的 dense_score（与 ablation.md 最后一行同源）
+  min_score: 0.55
+  max_contexts: 5
+  refuse_text: "现有资料未能覆盖该问题，请补充产品型号、故障现象或文档名称，我再帮你查一次。"
+
+cache:
+  enable: true
+  size: 256
+  similarity_threshold: 0.95   # 语义缓存阈值；设为 0 则只做精确匹配
+
+agent:
+  max_rounds: 2
+  sub_query_top_k: 5

@@ -1,0 +1,16 @@
+pyyaml>=6.0
+numpy>=1.24
+faiss-cpu>=1.7.4
+rank-bm25>=0.2.2
+jieba>=0.42.1
+pymupdf>=1.23
+python-docx>=1.1.0
+openai>=1.30.0
+tqdm>=4.66
+# 服务与 Agent
+fastapi>=0.110
+uvicorn>=0.29
+requests>=2.31
+langgraph>=0.2          # 多步检索 Agent（可选，不装则用纯 Python 版）
+# 可选：本地 embedding / reranker（不装则使用 API）
+# sentence-transformers>=2.7.0

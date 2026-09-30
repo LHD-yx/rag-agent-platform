@@ -1,0 +1,96 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1 环境自检",
+      "detail": "python main.py doctor —— 出错先跑这个",
+      "type": "shell",
+      "command": "python main.py doctor",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "2 解析并切片（免费，几秒）",
+      "type": "shell",
+      "command": "python main.py chunk",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "3 重建索引（要联网）",
+      "type": "shell",
+      "command": "python main.py index",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "4 检索测试（只检索不生成）",
+      "type": "shell",
+      "command": "python main.py query \"${input:question}\"",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "5 端到端问答",
+      "type": "shell",
+      "command": "python main.py ask \"${input:question}\"",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "6 启动后端服务（保持运行）",
+      "type": "shell",
+      "command": "python main.py serve",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+    },
+    {
+      "label": "7 启动桌面应用",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-desktop" },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+    },
+    {
+      "label": "8 跑评测出消融表（只花 embedding）",
+      "type": "shell",
+      "command": "python main.py eval",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "9 答案质量-生成标注表（10~15 分钟）",
+      "type": "shell",
+      "command": "python scripts/gen_answers.py",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "10 答案质量-统计出报告",
+      "type": "shell",
+      "command": "python scripts/score_answers.py",
+      "options": { "cwd": "${workspaceFolder}/01-项目代码/rag-agent-platform" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "question",
+      "type": "promptString",
+      "description": "要问的问题",
+      "default": "电视无法开机怎么办"
+    }
+  ]
+}

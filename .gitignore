@@ -1,0 +1,43 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== 环境变量 =====
+.env
+.env.local
+.env.*.local
+
+# ===== 编辑器 / IDE =====
+.idea/
+# .vscode 只上传任务与推荐插件；个人 settings.json（含本机路径）不上传
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
+.ipynb_checkpoints/
+*.swp
+
+# ===== 缓存与日志 =====
+.cache/
+*.log
+
+# ===== Node / Electron =====
+node_modules/
+dist/
+dist-electron/
+release/
+npm-debug.log*
+
+# ===== 系统 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 生成物（可以重建，不进仓库）=====
+# 向量与 BM25 索引：重建要调用 embedding 接口
+data/index/
+# 切片明细：跑 `python main.py chunk` 就能重建（统计报告 chunk_report.txt 保留）
+data/chunks/*.jsonl

@@ -1,0 +1,5 @@
+{"query": "设备无法开机怎么办", "gold_chunk_ids": ["d1-0-1"], "gold_doc_ids": ["d1"], "category": "故障排查"}
+{"query": "如何恢复出厂设置", "gold_doc_ids": ["d2"], "category": "操作指引"}
+{"query": "开不了机咋整", "gold_doc_ids": ["d1"], "category": "口语化"}
+{"query": "X 型号的电源模块能用在哪些型号上", "gold_chunk_ids": ["d1-0-2", "d5-1-0"], "multi_hop": true, "category": "多跳组合"}
+{"query": "竞品 Z 的价格是多少", "unanswerable": true, "category": "拒答"}

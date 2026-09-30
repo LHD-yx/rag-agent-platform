@@ -1,0 +1,31 @@
+# 统一行尾，避免 Windows 上 check out 之后 diff 全是改动
+* text=auto
+
+# 批处理必须是 CRLF（chcp 936 + cmd 的行尾要求）
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 源码与文档统一 LF
+*.py   text eol=lf
+*.md   text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+
+# 二进制：不要做行尾转换，也不要在 diff 里展开
+*.pdf    binary
+*.png    binary
+*.jpg    binary
+*.docx   binary
+*.xlsx   binary
+*.faiss  binary
+*.pkl    binary
+*.ttf    binary
+
+# 锁文件在 diff 里折叠显示
+package-lock.json -diff linguist-generated
